@@ -1,22 +1,22 @@
 ---
 layout: post
-title:  "Introduction to Causal Inference"
+title:  "Introduction to Causal Inference in DoWhy"
 date:   2021-04-20 08:43:59
 author: Rittik Ghosh
-categories: Causal
+categories: Causal Inference
 tags:	jekyll welcome
 cover:  "/assets/instacode.png"
 ---
 
 # DoWhy
 
-<img src="causal_assets/cnc_2.png">
+<img src="/assets/causal_assets/cnc_2.png">
 
-<img src="causal_assets/cnc_1.png">
+<img src="/assets/causal_assets/cnc_1.png">
 
 ### Correlation does not equal causation
 
-<img src="causal_assets/cnc_3.png">
+<img src="/assets/causal_assets/cnc_3.png">
 
 ### Kind of obvious?
 
@@ -26,23 +26,23 @@ The human mind has a remarkable ability to associate causes with a specific even
 
 Machine Learning (ML)-based projects focus on predicting outcomes rather than understanding causality. <b>They are outstanding correlation machines.</b>
 
-<img src="causal_assets/mlnow.png">
+<img src="/assets/causal_assets/mlnow.png">
 
 However deep your neural network is, most of the patterns it’s matching are likely devoid of true understanding of the latent factors resulting in the <b> “why” </b> of what the data.
 
 <b>Uploaded new Logo >> Downloads increased by 2X</b>
 Did downloads increase because of the new images in your app stores? Or did they just happen to occur at the same time?
 
-<img src="causal_assets/ml_end_1.png">
+<img src="/assets/causal_assets/ml_end_1.png">
 
 
-<img src="causal_assets/ml_end_2.png">
+<img src="/assets/causal_assets/ml_end_2.png">
 
 ### Causal Inference today
 
 The challenge with causal inference is not that is a new discipline, quite the opposite, but that the current methods represent a very small and simplistic version of causal reasoning. Despite that frequent usage in social-economics, medical research, and other social sciences.
 
-<img src="causal_assets/end.png">
+<img src="/assets/causal_assets/end.png">
 
 ## dowhy
 
@@ -56,11 +56,11 @@ Causal effect is the difference between Y values attained in the real world vers
 
 
 
-<img src="causal_assets/one.png">
+<img src="/assets/causal_assets/one.png">
 
 In other words, A causes Y iff changing A leads to a change in Y, <b>keeping everything else constant.</b>
 
-<img src="causal_assets/two.png">
+<img src="/assets/causal_assets/two.png">
 
 For example, a new marketing campaign may be deployed during the holiday season, a new feature may only have been applied to high-activity users, or the older patients may have been more likely to receive the new drug, and so on. <b>The goal of causal inference methods is to remove such correlations and confounding from the data and estimate the true effect of an action</b>, as given by the equation above.
 
@@ -68,7 +68,7 @@ For example, a new marketing campaign may be deployed during the holiday season,
 
 ### Methodology
 
-<img src="causal_assets/dowhy.png">
+<img src="/assets/causal_assets/dowhy.png">
 
 <ul>
 <li>
@@ -583,4 +583,4 @@ print(refutation)
     
 
 
-<img src="causal_assets/ending.png">
+<img src="/assets/causal_assets/ending.png">
